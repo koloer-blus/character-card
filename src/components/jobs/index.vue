@@ -3,9 +3,15 @@
 </script>
 
 <template>
-  <div>hello, work line</div>
+  <div class="hello-text">hello, work line</div>
 
 </template>
 
-<style scoped lang="css" > 
+<style scoped lang="less" > 
+.hello-text {
+  color: red;
+  &:hover {
+    color: blue;
+  }
+}
 </style>

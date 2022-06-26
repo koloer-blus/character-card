@@ -31,6 +31,10 @@ interface IEducationalExperience extends IBaseExperience {
   award?: IAward[];
   course?: string[];
   schoolType?: string[];
+  /**
+   * 学位
+   */
+  degree: string;
 }
 
 interface ISkill {
@@ -42,7 +46,7 @@ interface ISkill {
 interface IWork extends IBaseInfo {
   title: string;
   description: string;
-  technology?: string;
+  technology?: string[];
   previewAddress?: string;
   technicalHighlights?: string[];
   result?: string[];

@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import WorkLine from './components/work-line/index.vue';
-import Jobs from './components/jobs/index.vue';
+import { provide } from 'vue';
+import protagonistInfo from './protagonist';
+import Card from './components/card/index.vue';
+import * as provideKey from './provide-keys';
+provide(provideKey.protagonist, protagonistInfo);
 </script>
 
 <template>
-  <WorkLine />
-  <Jobs />
+  <Card />
 </template>
 
 <style>

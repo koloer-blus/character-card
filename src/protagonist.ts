@@ -1,6 +1,8 @@
 const cardInfo: IProtagonistInfo = {
   name: '乔治',
   birthYear: 2000,
+  tel: '14432242134',
+  email: 'card@test.email',
   position: '前端开发工程师',
   currentCompany: '字节跳动',
   currentCompanyEN: 'ByteDance',

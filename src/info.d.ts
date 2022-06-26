@@ -56,6 +56,8 @@ interface IWork extends IBaseInfo {
 interface IProtagonistInfo {
   name: string;
   birthYear: number;
+  tel?: string;
+  email?: string;
   position?: string;
   currentCompany?: string;
   currentCompanyEN?: string;
